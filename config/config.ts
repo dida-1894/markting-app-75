@@ -71,4 +71,5 @@ export default defineConfig({
   mfsu: {},
   webpack5: {},
   exportStatic: {},
+  publicPath: process.env.NODE_ENV === 'development' ? '/' : 'http://www.itjevon.cn/marketing/',
 });
