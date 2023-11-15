@@ -1,0 +1,32 @@
+.merchandise {
+  display: flex;
+  .right {
+    font-size: 12px;
+    .img {
+      width: 40px;
+      height: 40px;
+      margin-right: 16px;
+    }
+    .bottom {
+      display: flex;
+      justify-content: space-between;
+      color: rgba(0, 0, 0, 0.65);
+    }
+  }
+}
+
+.custom {
+  :global(.ant-pro-table-list-toolbar) {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: #fff;
+  }
+
+  :global(.ant-table-thead) {
+    position: sticky;
+    top: 64px;
+    z-index: 2;
+    background: #fff;
+  }
+}
